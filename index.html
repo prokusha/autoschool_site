@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AutoSchool</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<style>
+    .carousel-item:before {
+        content:"";
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        background:rgba(0,0,0,0.6);
+    }
+</style>
+
+<body>
+<!-- Верхнее меню сайта -->
+    <div class="container-fluid" style="background: #01d800; color: #01d800;">. </div>
+    <nav class="navbar navbar-expand-xxl navbar-light">
+        <div class="container">
+            <a class="navbar-brand align-items-center" href="index.html">
+                <img src="image/logo-1-300x100.png" alt="" width="210" height="70">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav text-center align-items-center">
+                    <a href="index.html" class="nav-link">Главная</a>
+                    <a href="" class="nav-link">Стоимость</a>
+                    <a href="" class="nav-link">Учащимся</a>
+                    <a href="" class="nav-link">Отзывы</a>
+                    <a href="" class="nav-link">Контакты</a>
+                    <a href="" class="nav-link">Часто задаваемые вопросы</a>
+                    <a href="" class="nav-link">Сведения об организации</a>
+                    <a href="" class="nav-link">О нас</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- Карусель из слайдов -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="container flex-md-row carousel-inner">
+            <div class="carousel-item active card bg-dark text-white" >
+                <img src="image/car.jpg" class="d-block w-100 align-items-center" style="" alt="...">
+                <div class="container card-img-overlay" style="color: white">
+                    <h class="card-body">АВТОШКАОЛА ВОРОНЕЖ "ВОА"</h>
+                    <h5 class="card-body">Лучшие цена на обучение в Воронеже</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="image/car1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="image/car2.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid g-2 text-white" >. </div>
+<!-- Изображения с категориями -->
+    <div class="container">
+        <div class="row row-cols-auto g-1">
+            <img src="image/A.png" class="rounded mx-auto d-block" height="90" width="181"/>
+            <img src="image/B.png" class="rounded mx-auto d-block" height="90" width="181"/>
+            <img src="image/C.png" class="rounded mx-auto d-block" height="90" width="181"/>
+            <img src="image/D.png" class="rounded mx-auto d-block" height="90" width="181"/>
+            <img src="image/E.png" class="rounded mx-auto d-block" height="90" width="181"/>
+        </div>
+    </div>
+</body>
+</html>
