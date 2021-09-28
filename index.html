@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/bootstrap-utilities.css">
     <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="icon" href="image/favicon.png" type="image/png">
+    <script src="//code-ya.jivosite.com/widget/f5aIWDFrWq" async></script>
 </head>
 
 <style>
@@ -45,14 +46,20 @@
         width: 100%;
         height: 100%;
     }
-    body {
-
+    .backimage{
+        background: rgba(0,0,0,0.6) url("image/27857-1280x430-dark.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 930px;
     }
 </style>
 
 <body>
+
 <!-- Верхнее меню сайта -->
-    <nav class="navbar navbar-expand-xxl navbar-light">
+    <nav class="navbar navbar-expand-xxl navbar-light fixed-top" style="background: white">
         <div class="container">
             <a class="navbar-brand align-items-start" href="index.html">
                 <img src="image/logo-1-300x100.png" alt="" width="210" height="70">
@@ -75,6 +82,7 @@
         </div>
     </nav>
 <!-- Карусель из слайдов -->
+<!--
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="container flex-md-row carousel-inner">
             <div class="carousel-item active card bg-dark text-white" >
@@ -93,9 +101,19 @@
         </div>
     </div>
     <div class="container-fluid g-2 text-white" style="margin-top: 50px"></div>
+-->
+    <div class="container-fluid backimage">
+        <div class="container text-white">
+            <h1 style="padding-top: 250px; font-size: 10vmin; font-family: 'Open Sans'" >Автошкола ВАО</h1>
+            <h2 style="padding-top: 40px; font-size: 7vmin; font-family: 'Open Sans'">Лучшие цена в Воронеже</h2>
+            <a href="contacts.html" type="button" class="btn btn-lg btn-success d-grid gap-2 col-4" style="margin-top: 100px">Записаться на обучение</a>
+        </div>
+    </div>
+
 <!-- Изображения с категориями -->
     <div class="container">
-        <div class="row row-cols-auto g-1">
+        <h2 class="text-center" style="margin-top: 50px; font-family: 'Open Sans';">У НАС ВЫ МОЖЕТЕ ПОЛУЧИТЬ ПРАВА КАТЕГОРИИ:</h2>
+        <div class="row row-cols-auto g-1" style="padding-top: 50px">
             <img src="image/A.png" class="rounded mx-auto d-block" height="90" width="181"/>
             <img src="image/B.png" class="rounded mx-auto d-block" height="90" width="181"/>
             <img src="image/C.png" class="rounded mx-auto d-block" height="90" width="181"/>
