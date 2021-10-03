@@ -52,8 +52,8 @@
 
 <body>
 <!-- Верхнее меню сайта -->
-    <nav class="navbar navbar-expand-xxl navbar-light fixed-top" style="background: white">
-        <div class="container">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background: white">
+        <div class="container-fluid">
             <a class="navbar-brand align-items-start" href="index.html">
                 <img src="image/logo-1-300x100.png" alt="" width="210" height="70">
             </a>
@@ -63,7 +63,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav text-center align-items-center">
                     <a href="index.html" class="nav-link">Главная</a>
-                    <a href="" class="nav-link">Стоимость</a>
+                    <!--<a href="" class="nav-link">Стоимость</a>-->
                     <!--<a href="" class="nav-link">Учащимся</a>-->
                     <!--<a href="" class="nav-link">Отзывы</a>-->
                     <a href="contacts.html" class="nav-link">Контакты</a>
@@ -97,15 +97,15 @@
 -->
     <div class="container-fluid backimage">
         <div class="container text-white">
-            <h1 style="padding-top: 250px; font-size: 10vmin; font-family: 'Open Sans'" >Автошкола ВАО</h1>
-            <h2 style="padding-top: 40px; font-size: 7vmin; font-family: 'Open Sans'">Лучшие цены в Воронеже</h2>
+            <h1 style="padding-top: 250px; font-size: 10vmin; font-family: 'Open Sans'" >Автошкола ВОА</h1>
+            <h2 style="padding-top: 40px; font-size: 7vmin; font-family: 'Open Sans'">Лучшие цены в Воронеже и области</h2>
             <a href="contacts.html" type="button" class="btn btn-lg btn-success d-grid gap-2 col-md-3" style="margin-top: 120px">Записаться на обучение</a>
         </div>
     </div>
 
 <!-- Изображения с категориями -->
     <div class="container">
-        <h2 class="text-center" style="margin-top: 50px; font-family: 'Open Sans';">У НАС ВЫ МОЖЕТЕ ПОЛУЧИТЬ ПРАВА КАТЕГОРИИ:</h2>
+        <h4 class="text-center fw-bold" style="margin-top: 50px;">У НАС ВЫ МОЖЕТЕ ПОЛУЧИТЬ ПРАВА КАТЕГОРИИ:</h4>
         <div class="row row-cols-auto g-1" style="padding-top: 50px">
             <img src="image/A.png" class="rounded mx-auto d-block" height="90" width="181"/>
             <img src="image/B.png" class="rounded mx-auto d-block" height="90" width="181"/>
@@ -114,9 +114,28 @@
             <img src="image/E.png" class="rounded mx-auto d-block" height="90" width="181"/>
         </div>
     </div>
+    <h4 class="text-center fw-bold" style="margin-top: 50px;">СТОИМОСТЬ ОБУЧЕНИЯ</h4>
+    <div class="container " style="margin-top: 50px">
+        <div class="row row-cols-2 g-3">
+            <div class="text-center">
+                <h5 class="fw-bold">Г. Воронеж</h5>
+                <h6 style="margin-top: 20px">Теория:
+                    <p class="fw-bold">7500 рублей
+                </h6>
+                <h6>Практика:
+                    <p class="fw-bold">250 рублей за академический час</h6>
+            </div>
+            <div class="text-center">
+                <h5 class="fw-bold">г. Богучар</h5>
+                <h6 style="margin-top: 20px">Теория и практика:
+                <p class="fw-bold">от 16000 рублей</h6>
+            </div>
+        </div>
+    </div>
+    <h6 class="text-center fw-bold" style="padding-top: 10px">информацию уточняйте по <a href="contacts.html" style="color: rgba(103,217,105,0.91)">телефону</a></h6>
 <!--дни и время занятий-->
-    <h2 class="text-center" style="margin-top: 50px; font-family: 'Open Sans';">ДНИ И ВРЕМЯ ЗАНЯТИЙ</h2>
-    <div class="container" style="margin-top: 50px; font-family: 'Open Sans'">
+    <h4 class="text-center fw-bold" style="margin-top: 50px;">ДНИ И ВРЕМЯ ЗАНЯТИЙ</h4>
+    <div class="container" style="margin-top: 50px;">
         <div class="row row-cols-2 g-3 text-center">
             <div>
                 <h5 class="fw-bold">Пн. Ср. или Вт. Чт.</h5>
@@ -167,23 +186,23 @@
                 <h6 style="padding-top: 20px; padding-left: 15px">
                     <li>Обучение на все категориям по приемлемым ценам в учебных классах</li>
                     <li>Удобный график занятий</li>
-                    100%<li>Автодромы на правом и левом берегу</li>
+                    <li>Автодромы на правом и левом берегу</li>
                     <li class="fw-bold">Оплата в рассрочку</li>
                 </h6>
                 <h6 style="padding-top: 10px">Наши автокурсы полностью аккредитованы под новые правила обучения. Все наши классы и автомобили полностью оборудованы для успешного усвоения материала и прохождения практики.</h6>
                 <a href="contacts.html" type="button" class="btn btn-outline-success d-grid gap-2 col-6 mx-auto" style="margin-top: 50px">Записаться</a>
             </div>
-            <div class="container row row-cols-sm-1 row-cols-md-2 row-cols-lg-4" style="padding-top: 60px" >
-                <a href="image/lic.jpeg" class="">
+            <div class="container row row-cols-auto" style="padding-top: 60px" >
+                <a href="image/lic.jpeg" class="rounded mx-auto d-block">
                     <img src="image/lic.jpeg" height="400" width="260">
                 </a>
-                <a href="image/zakl.jpeg" class="">
+                <a href="image/zakl.jpeg" class="rounded mx-auto d-block">
                     <img src="image/zakl.jpeg" height="400" width="260">
                 </a>
-                <a href="image/sved1.jpeg" class="">
+                <a href="image/sved1.jpeg" class="rounded mx-auto d-block">
                     <img src="image/sved1.jpeg" height="400" width="260">
                 </a>
-                <a href="image/sved2.jpeg" class="">
+                <a href="image/sved2.jpeg" class="rounded mx-auto d-block">
                     <img src="image/sved2.jpeg" height="400" width="260">
                 </a>
             </div>
