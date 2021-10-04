@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Галлерея | Автошкола "ВОА"</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="icon" href="image/favicon.png" type="image/png">
+    <script src="//code-ya.jivosite.com/widget/f5aIWDFrWq" async></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="js/gridify.js"></script>
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
+    <style>
+        .thumb img {
+            -webkit-filter: grayscale(0);
+            filter: none;
+            border-radius: 5px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 5px;
+        }
+        .thumb img:hover {
+            -webkit-filter: grayscale(1);
+            filter: grayscale(1);
+        }
+        .a {
+
+        }
+    </style>
+</head>
+<body>
+<!-- Верхнее меню сайта -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background: white">
+        <div class="container-fluid">
+            <a class="navbar-brand align-items-start" href="index.html">
+                <img src="image/logo-1-300x100.png" alt="" width="210" height="70">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav text-center align-items-center">
+                    <a href="index.html" class="nav-link">Главная</a>
+                    <!--<a href="" class="nav-link">Стоимость</a>-->
+                    <!--<a href="" class="nav-link">Учащимся</a>-->
+                    <a href="galleria.html" class="nav-link">Галлерея</a>
+                    <a href="contacts.html" class="nav-link">Контакты</a>
+                    <!--<a href="" class="nav-link">Часто задаваемые вопросы</a>-->
+                    <a href="svedenie-ob-org.html" class="nav-link">Сведения об организации</a>
+                    <a href="about.html" class="nav-link">О нас</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="padding-top: 100px">
+        <div class="grid">
+                <a data-fancybox="gallery" href="photo/1.jpg">
+                    <img class="img-fluid" src="photo/1.jpg" alt="...">
+                </a>
+                <a data-fancybox="gallery" href="photo/2.jpg">
+                    <img class="img-fluid" src="photo/2.jpg" alt="...">
+                </a>
+                <a data-fancybox="gallery" href="photo/3.jpg">
+                    <img class="img-fluid" src="photo/3.jpg" alt="...">
+                </a>
+                <a data-fancybox="gallery" href="photo/4.jpg">
+                    <img class="img-fluid" src="photo/4.jpg"alt="...">
+                </a>
+                <a data-fancybox="gallery" href="photo/5.jpg">
+                    <img class="img-fluid" src="photo/5.jpg" alt="...">
+                </a>
+                <a data-fancybox="gallery" href="photo/6.jpg">
+                    <img class="img-fluid" src="photo/6.jpg" alt="...">
+                </a>
+                <a data-fancybox="gallery" href="photo/7.jpg">
+                    <img class="img-fluid" src="photo/7.jpg" alt="...">
+                </a>
+                <a data-fancybox="gallery" href="photo/8.jpg">
+                    <img class="img-fluid" src="photo/8.jpg" alt="...">
+                </a>
+                <a data-fancybox="gallery" href="photo/9.jpg">
+                    <img class="img-fluid" src="photo/9.jpg" alt="...">
+                </a>
+                <a data-fancybox="gallery" href="photo/10.jpg">
+                    <img class="img-fluid" src="photo/10.jpg" alt="...">
+                </a>
+                <a data-fancybox="gallery" href="photo/11.jpg">
+                    <img class="img-fluid" src="photo/11.jpg" alt="...">
+                </a>
+                <a data-fancybox="gallery" href="photo/12.jpg">
+                    <img class="img-fluid" src="photo/12.jpg" alt="...">
+                </a>
+                <a data-fancybox="gallery" href="photo/13.jpg">
+                    <img class="img-fluid" src="photo/13.jpg" alt="...">
+                </a>
+                <a data-fancybox="gallery" href="photo/14.jpg">
+                    <img class="img-fluid" src="photo/14.jpg" alt="...">
+                </a>
+                <a data-fancybox="gallery" href="photo/15.jpg">
+                    <img class="img-fluid" src="photo/15.jpg" alt="...">
+                </a>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            var options =  {
+                srcNode: 'img',             // grid items (class, node)
+                margin: '15px',             // margin in pixel
+                width: '150px',             // grid item width in pixel
+                max_width: '300px',              // dynamic gird item width
+                resizable: true,            // re-layout if window resize
+                transition: 'all 0.5s ease' // support transition for CSS3
+            };
+            $('.grid').gridify(options);
+        });
+    </script>
+</body>
+</html>
